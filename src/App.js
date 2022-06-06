@@ -1,12 +1,12 @@
-import React from 'react';
-import'./index.css'
+import React from "react";
+import PoststList from "./features/post/PoststList";
 
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <main className="App">
+      <PoststList/>
+    </main>
   );
 }
 
